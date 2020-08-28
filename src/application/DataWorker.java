@@ -29,7 +29,7 @@ public class DataWorker {
 		System.out.print("Base salary: ");
 		double baseSalary = sc.nextDouble();
 		
-		Worker worker = new Worker(name, WorkerLevel.valueOf(level), baseSalary, new Department(name));
+		Worker worker = new Worker(name, WorkerLevel.valueOf(level), baseSalary, new Department(department));
 		
 		System.out.print("How many contracts to this worker?");
 		int n =sc.nextInt();

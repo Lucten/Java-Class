@@ -84,7 +84,7 @@ public class Worker {
 
 	@Override
 	public String toString() {
-		return "Name: " + name + "\ndepartment: " + department.getName() + "\n";
+		return "Name: " + name + "\ndepartment: " + getDepartament().getName() + "\n";
 	}
 	
 	
